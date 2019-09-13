@@ -43,10 +43,10 @@ class MineField(Frame):
         for i in range(height):
             for j in range(width):
                 if (j,i) in self.__mineCoordinates:
-                    self.__mineMap[i][j] = MineSquare(master=self, width=10, height=10, bomb=True); self.__mines[i][j].grid(row=i, column=j)
+                    self.__mineMap[i][j] = MineSquare(master=self, width=10, height=10, bomb=True); self.__mineMap[i][j].grid(row=i, column=j)
                     self.incrementBombCounter(row=i, column=j)
                 else:
-                    self.__mineMap[i][j] = MineSquare(master=self, width=10, height=10); self.__mines[i][j].grid(row=i, column=j)
+                    self.__mineMap[i][j] = MineSquare(master=self, width=10, height=10); self.__mineMap[i][j].grid(row=i, column=j)
 
     def gameOver(self):
         # Display all of the bombs
