@@ -1,0 +1,81 @@
+config(**options) [#]
+Modifies one or more widget options. If no options are given, the method returns a dictionary containing all current option values.
+
+**options
+Widget options.
+autoseparators=
+Default is 1. (autoSeparators/AutoSeparators)
+background=
+Default value is system specific. (the database name is background, the class is Background)
+bg=
+Same as background.
+borderwidth=
+Default value is 2. (borderWidth/BorderWidth)
+bd=
+Same as borderwidth.
+cursor=
+Default value is “xterm”. (cursor/Cursor)
+exportselection=
+Default value is 1. (exportSelection/ExportSelection)
+font=
+Default value is system specific. (font/Font)
+foreground=
+Default value is system specific. (foreground/Foreground)
+fg=
+Same as foreground.
+height=
+Default value is 24. (height/Height)
+highlightbackground=
+Default value is system specific. (highlightBackground/HighlightBackground)
+highlightcolor=
+Default value is system specific. (highlightColor/HighlightColor)
+highlightthickness=
+Default value is 0. (highlightThickness/HighlightThickness)
+insertbackground=
+Default value is system specific. (insertBackground/Foreground)
+insertborderwidth=
+Default value is 0. (insertBorderWidth/BorderWidth)
+insertofftime=
+Default value is 300. (insertOffTime/OffTime)
+insertontime=
+Default value is 600. (insertOnTime/OnTime)
+insertwidth=
+Default value is 2. (insertWidth/InsertWidth)
+maxundo=
+Default is 0. (maxUndo/MaxUndo)
+padx=
+Default value is 1. (padX/Pad)
+pady=
+Default value is 1. (padY/Pad)
+relief=
+Default value is SUNKEN. (relief/Relief)
+selectbackground=
+Default value is system specific. (selectBackground/Foreground)
+selectborderwidth=
+Default value is 0. (selectBorderWidth/BorderWidth)
+selectforeground=
+Default value is system specific. (selectForeground/Background)
+setgrid=
+Default value is 0. (setGrid/SetGrid)
+spacing1=
+Default value is 0. (spacing1/Spacing)
+spacing2=
+Default value is 0. (spacing2/Spacing)
+spacing3=
+Default value is 0. (spacing3/Spacing)
+state=
+Default value is NORMAL. (state/State)
+tabs=
+No default value. (tabs/Tabs)
+takefocus=
+No default value. (takeFocus/TakeFocus)
+undo=
+Default is 0. (undo/Undo)
+width=
+Default value is 80. (width/Width)
+wrap=
+Default value is CHAR. (wrap/Wrap)
+xscrollcommand=
+No default value. (xScrollCommand/ScrollCommand)
+yscrollcommand=
+No default value. (yScrollCommand/ScrollCommand)
