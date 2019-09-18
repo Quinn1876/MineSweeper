@@ -2,7 +2,7 @@ from tkinter import Tk, Frame, Widget, Label, Text, Button
 import tkinter
 from random import randint
 
-DEBUG=True
+DEBUG=False
 
 class Main(Tk):
     width = 250
