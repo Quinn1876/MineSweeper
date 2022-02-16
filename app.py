@@ -12,6 +12,7 @@ class Main(Tk):
         self.__title = "Minesweeper"
         self.header = Header(master=self, title=self.__title, restartCommand=self.restartCommand); self.header.pack(fill=tkinter.X, expand=0)
         self.mineField = MineField(master=self, width = 16, height=16, numBombs=32); self.mineField.pack(fill=tkinter.BOTH, expand=0)
+        self.iconbitmap('assets\\minesquare\\bomb.png')
 
     @classmethod
     def run(cls):
